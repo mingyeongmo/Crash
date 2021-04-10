@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Header />
+      <Header onAdd={() => setshowAddTask(!showAddTask)} showAdd={showAddTask}/>
       {showAddTask && <AddTask onAdd={addTask}/>}
       {tasks.length > 0 ? (
       <Tasks tasks={tasks} onDelete=
