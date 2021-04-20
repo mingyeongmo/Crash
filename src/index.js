@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render( // 실제 DOM 내부에 리액트 컴포넌트를 렌더링하겠다는것을 의미
+ReactDOM.render( // 실제 DOM 내부에 리액트 컴포넌트를 렌더링하겠다는것을 의미한다.
   <React.StrictMode>
     <App />
   </React.StrictMode>,
